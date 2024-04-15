@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3c830749-df28-44e0-97f5-be81003a59ab">
+  <producedTypes>
+    <managerType typeId="9b007c17-b5ca-4cf3-8b4c-c66ef0b80ba4" valueTypeId="3af7d9e7-001e-48ae-807e-072231d64096"/>
+    <valueManagerType typeId="8a414583-9749-4949-88c2-0c04837cac13" valueTypeId="0da0f914-8461-4848-918e-d8043889a19e"/>
+    <valueKeyType typeId="9d5faf83-e1ee-4d10-831d-9edcdd51a5d7" valueTypeId="c5e04610-7c9c-41fb-ab19-0a8238504707"/>
+  </producedTypes>
+  <name>ВКМ_СекретТелеграмБота</name>
+  <synonym>
+    <key>ru</key>
+    <value>Секрет телеграм бота</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>255</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

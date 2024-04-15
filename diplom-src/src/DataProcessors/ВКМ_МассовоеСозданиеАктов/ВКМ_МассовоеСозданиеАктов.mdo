@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="334c3454-01d7-43f7-b997-900f881d5e6e">
+  <producedTypes>
+    <objectType typeId="6860d303-0bca-47bd-94c3-989a681bfe8e" valueTypeId="5776eacd-3015-43e6-8cf8-ed44bb7b11ea"/>
+    <managerType typeId="17369a4e-b958-4723-84e2-3818a65e1a92" valueTypeId="cc5c8a14-3b66-44fc-9bc2-41427ddbd369"/>
+  </producedTypes>
+  <name>ВКМ_МассовоеСозданиеАктов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Массовое создание актов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ВКМ_МассовоеСозданиеАктов.Form.Форма</defaultForm>
+  <attributes uuid="7f4027e5-bdb1-4dd9-b5da-12699fb4aad9">
+    <name>ВКМ_Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <tabularSections uuid="e43d678f-d7e1-446e-bac0-55646b86aa9c">
+    <producedTypes>
+      <objectType typeId="60ee031a-b036-457f-bbc0-148f8b211e7d" valueTypeId="79d9d655-0a35-48fd-84f9-dc6e079f894a"/>
+      <rowType typeId="ea102915-d7f4-445e-9902-0b4cad670dfc" valueTypeId="3996497e-1e6a-48cd-9aae-bef43015457e"/>
+    </producedTypes>
+    <name>ВКМ_ДоговорыИРеализации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договоры и реализации</value>
+    </synonym>
+    <attributes uuid="9096852e-f34a-4e42-b0c0-894afbeae1d2">
+      <name>ВКМ_Договоры</name>
+      <synonym>
+        <key>ru</key>
+        <value>Договоры</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ДоговорыКонтрагентов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="7ee8e196-00f5-46e7-b205-a989fa4a821a">
+      <name>ВКМ_РеализацияТоваровУслуг</name>
+      <synonym>
+        <key>ru</key>
+        <value>Реализация товаров и услуг</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.РеализацияТоваровУслуг</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="fe250e2f-e178-4a0c-a2a3-783deeb04602">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
