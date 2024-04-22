@@ -41,4 +41,7 @@
   <content>Report.ВКМ_РасчётыССотрудниками</content>
   <content>Report.ВКМ_РасходЗапланированныхОтпусков</content>
   <content>InformationRegister.ВКМ_ГрафикОтпусков</content>
+  <content>CommonModule.ВКМ_Телеграм</content>
+  <content>CommonModule.ВКМ_ОбщегоНазначенияHTTP</content>
+  <content>CommonModule.ВКМ_УправлениеДоступом</content>
 </mdclass:Subsystem>
